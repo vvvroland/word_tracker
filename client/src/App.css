@@ -1,0 +1,66 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  /* text-align: center; */
+background-color: aliceblue;
+}
+
+
+.line{
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.button{
+  background-color: indigo;
+  color: aqua;
+  border: 2px solid black;
+  /* width: 100%; */
+  padding: 7px;
+  border-radius: 5px;
+}
+
+.fcol{
+display: flex;
+flex-direction: column;
+gap: 3px;
+}
+
+.spread{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.space{
+  margin: 3px;
+}
+
+.around{
+  border: 5px solid black;
+  align-items: center;
+}
+
+.buffer{
+  padding: 5px;
+}
+
+.hidden{
+  display: none;
+}
+
+.errorMessage{
+  color: lime;
+}
+
+.between{
+  justify-content: space-between;
+}
+
+.right{
+  align-items: end;
+  flex-direction: column;
+  align-self: end;
+}
